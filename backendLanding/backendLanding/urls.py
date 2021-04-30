@@ -11,4 +11,5 @@ urlpatterns = [
     path( "auth/", include( "auth_api.urls" ) ),
     path( "blogs/", include( "blogs_api.urls" ) ),
     path( "botmsg/", include( "botmsg_api.urls" ) ),
+    path( "usermsg/", include( "usermsg_api.urls" ) ),
 ]

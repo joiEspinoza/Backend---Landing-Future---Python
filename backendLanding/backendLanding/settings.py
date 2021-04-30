@@ -33,7 +33,9 @@ INSTALLED_APPS = [
 
     "auth_api",
     "blogs_api",
-    "botmsg_api"
+    "botmsg_api",
+    "usermsg_api"
+
 ]
 
 MIDDLEWARE = [
@@ -126,3 +128,4 @@ STATIC_URL = '/static/'
 AUTH_USER_MODEL = "auth_api.Usuarios"
 BLOGS_MODEL = "blogs_api.Blog"
 BOTMSG_MODEL = "botmsg_api.BotMsg"
+USERMSG_MODEL = "usermsg_api.UserMsg"
